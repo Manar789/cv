@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact-Me</title>
+  <style>
+    body {
+      background-color: #e6e6fa;
+    }
+
+    hr {
+      background-color: white;
+      border-style: none;
+      height: 2px;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>Mohamed Thameem Manar ES</h3>
+  <p>Twitter Handle# <a href="https://twitter.com/manar789"><em>@Manar789</em></a></p>
+  <p>LinkedIn# <a href="https://www.linkedin.com/in/mohamed-thameem-manar-86993a182/"><em>Thameem</em></a></p>
+  <p>Email ID# <em>manar789@gmail.com</em></p>
+  <hr>
+
+  <form action="result.html" method="GET">
+    <div>
+      <label for="Name">Name:</label>
+      <input type="text" name="Name" id="Name" required>
+    </div>
+    <div>
+      <label for="Gender">Gender:</label>
+      <select name="Gender" id="Gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+    </div>
+    <div>
+      <label for="Email">Email:</label>
+      <input type="Email" name="Email" id="Email" required>
+    </div>
+    <div>
+      <label for="Phone">Phone Number:</label>
+      <input type="tel" name="phone" id="Phone" minlength="9" maxlength="14" placeholder="(+91) followed by number " required>
+    </div>
+    <div>
+      <label for="text">Your Message:</label>
+      <textarea name="Message" cols="50" rows="5" maxlength="250"></textarea>
+    </div>
+    <div>
+      <button type="reset"> Reset </button>
+      <button type="submit"> Submit </button>
+    </div>
+    <hr>
+
+  </form>
+
+</body>
+
+</html>
